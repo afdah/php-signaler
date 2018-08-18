@@ -50,19 +50,19 @@ Applications/RayP2P/start_businessworker.php
 
 1.Running in Debug mode.
 
-	php php-signaler/start.php
+	php php-signaler/start.php start
 
 2.Running in Daemon mode.
 
-	php php-signaler/start.php -d
+	php php-signaler/start.php start -d
 	
 3.Running in Master mode.(exclude bussniess worker)
 
-	php php-signaler/master.php -d
+	php php-signaler/master.php start -d
 	
 4.Running in Cluster mode.(only bussniess worker)
 
-	php php-signaler/cluster.php -d
+	php php-signaler/cluster.php start -d
 
 ## Configure hlsjs-p2p-engine
 
